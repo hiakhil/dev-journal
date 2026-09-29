@@ -24,7 +24,7 @@ this is where I document what I learn, what I try, and what finally clicks.
 
 | Area | What's on my learning radar |
 | :--- | :--- |
-| 🧩 **Data Structures & Algorithms** | Problem solving, patterns, and the fundamentals behind efficient code |
+| 🧩 **[Data Structures & Algorithms](Data%20Structures%20And%20Algorithms)** | Problem solving, patterns, and implementations in Java & Python |
 | ⚙️ **[Backend Engineering](backend/)** | APIs, databases, services, and the systems behind the screen |
 | 🎨 **[Frontend Engineering](frontend/)** | Interfaces, interactions, and lessons from building for the browser |
 | 🏗️ **[System Design](system-design/)** | Tradeoffs, scalability, and how the pieces fit together |
@@ -36,6 +36,8 @@ this is where I document what I learn, what I try, and what finally clicks.
 
 <details>
 <summary><strong>🧩 Data Structures & Algorithms</strong></summary>
+
+Explore by language: **[Java](Data%20Structures%20And%20Algorithms%20%28Java%29/)** · **[Python](Data%20Structures%20And%20Algorithms%20%28Python%29/)**
 
 - **Foundations:** arrays, strings, linked lists, and mathematical problems
 - **Searching:** binary search
