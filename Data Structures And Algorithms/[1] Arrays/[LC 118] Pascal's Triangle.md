@@ -12,7 +12,7 @@ The first row is `[1]`. Each subsequent row has one more entry than the previous
 
 ## Examples
 
-The following inputs and outputs are from the linked LeetCode statement; explanations are paraphrased.
+Consider the following inputs and outputs; explanations are paraphrased.
 
 ### Example 1
 
@@ -76,8 +76,8 @@ Let `n = numRows`. Both implementations have the same bounds.
 ## Java 21 Solution
 
 ```java
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 class Solution {
     public List<List<Integer>> generate(int numRows) {

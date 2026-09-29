@@ -12,7 +12,7 @@ A **substring** contains consecutive characters from the original string. Charac
 
 ## Examples
 
-The following inputs and outputs are from the linked LeetCode statement; explanations are paraphrased.
+Consider the following inputs and outputs; explanations are paraphrased.
 
 ### Example 1
 
@@ -90,13 +90,15 @@ These bounds apply to both the Java 21 and Python 3 implementations below.
 ## Java 21 Solution
 
 ```java
-import java.util.HashMap;
+import java.lang.Math;
+
 import java.util.Map;
+import java.util.HashMap;
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        Map<Character, Integer> lastSeen = new HashMap<>();
         int left = 0, maxLength = 0;
+        Map<Character, Integer> lastSeen = new HashMap<>();
 
         for (int right = 0; right < s.length(); right++) {
             Integer previousIndex = lastSeen.get(s.charAt(right));

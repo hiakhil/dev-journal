@@ -14,7 +14,7 @@ Modify `nums1` directly without returning a result. A zero within its first `m` 
 
 ## Examples
 
-The following inputs and outputs are from the linked LeetCode statement; explanations are paraphrased.
+Consider the following inputs and outputs; explanations are paraphrased.
 
 ### Example 1
 
@@ -97,9 +97,7 @@ Both implementations have the following bounds.
 ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int first = m-1;
-        int second = n-1;
-        int write = m+n-1;
+        int first = m-1, second = n-1, write = m+n-1;
 
         while (second >= 0) {
             if (first >= 0 && nums1[first] > nums2[second]) {

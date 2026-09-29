@@ -12,7 +12,7 @@ Profit is the selling price minus the buying price. Return `0` if no profitable 
 
 ## Examples
 
-The following inputs and outputs are from the linked LeetCode statement; explanations are paraphrased.
+Consider the following inputs and outputs; explanations are paraphrased.
 
 ### Example 1
 
@@ -80,10 +80,11 @@ Let `n` be the number of entries in `prices`. Both implementations have the same
 ## Java 21 Solution
 
 ```java
+import java.lang.Math;
+
 class Solution {
     public int maxProfit(int[] prices) {
-        int minPrice = prices[0];
-        int maxProfit = 0;
+        int minPrice = prices[0], maxProfit = 0;
 
         for (int day = 1; day < prices.length; day++) {
             maxProfit = Math.max(maxProfit, prices[day] - minPrice);
@@ -103,8 +104,7 @@ from typing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        minPrice = prices[0]
-        maxProfit = 0
+        minPrice, maxProfit = prices[0], 0
 
         for day in range(1, len(prices)):
             maxProfit = max(maxProfit, prices[day] - minPrice)
