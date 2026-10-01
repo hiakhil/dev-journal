@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="325" viewBox="0 0 800 325" role="img" aria-labelledby="title desc">
+<title id="title">Rotate Image: Example 1</title>
+<desc id="desc">Input matrix and its 90-degree clockwise rotation. Colors track original rows into output columns.</desc>
+<rect width="800" height="325" rx="16" fill="#ffffff"/>
+<g font-family="Arial, sans-serif" text-anchor="middle" fill="#0f172a">
+<text x="400" y="32" font-size="22" font-weight="700">Example 1: Rotate 90&#176; clockwise</text>
+<text x="130" y="72" font-size="18" font-weight="700">Input</text>
+<rect x="40" y="92" width="60" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="70" y="131" font-size="26">1</text>
+<rect x="100" y="92" width="60" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="130" y="131" font-size="26">2</text>
+<rect x="160" y="92" width="60" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="190" y="131" font-size="26">3</text>
+<rect x="40" y="152" width="60" height="60" fill="#dcfce7" stroke="#64748b"/>
+<text x="70" y="191" font-size="26">4</text>
+<rect x="100" y="152" width="60" height="60" fill="#dcfce7" stroke="#64748b"/>
+<text x="130" y="191" font-size="26">5</text>
+<rect x="160" y="152" width="60" height="60" fill="#dcfce7" stroke="#64748b"/>
+<text x="190" y="191" font-size="26">6</text>
+<rect x="40" y="212" width="60" height="60" fill="#ffedd5" stroke="#64748b"/>
+<text x="70" y="251" font-size="26">7</text>
+<rect x="100" y="212" width="60" height="60" fill="#ffedd5" stroke="#64748b"/>
+<text x="130" y="251" font-size="26">8</text>
+<rect x="160" y="212" width="60" height="60" fill="#ffedd5" stroke="#64748b"/>
+<text x="190" y="251" font-size="26">9</text>
+<text x="610" y="72" font-size="18" font-weight="700">Output</text>
+<rect x="520" y="92" width="60" height="60" fill="#ffedd5" stroke="#64748b"/>
+<text x="550" y="131" font-size="26">7</text>
+<rect x="580" y="92" width="60" height="60" fill="#dcfce7" stroke="#64748b"/>
+<text x="610" y="131" font-size="26">4</text>
+<rect x="640" y="92" width="60" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="670" y="131" font-size="26">1</text>
+<rect x="520" y="152" width="60" height="60" fill="#ffedd5" stroke="#64748b"/>
+<text x="550" y="191" font-size="26">8</text>
+<rect x="580" y="152" width="60" height="60" fill="#dcfce7" stroke="#64748b"/>
+<text x="610" y="191" font-size="26">5</text>
+<rect x="640" y="152" width="60" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="670" y="191" font-size="26">2</text>
+<rect x="520" y="212" width="60" height="60" fill="#ffedd5" stroke="#64748b"/>
+<text x="550" y="251" font-size="26">9</text>
+<rect x="580" y="212" width="60" height="60" fill="#dcfce7" stroke="#64748b"/>
+<text x="610" y="251" font-size="26">6</text>
+<rect x="640" y="212" width="60" height="60" fill="#dbeafe" stroke="#64748b"/>
+<text x="670" y="251" font-size="26">3</text>
+<path d="M 320 182 H 474 M 460 172 L 474 182 L 460 192" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="400" y="160" font-size="16">90&#176; clockwise</text>
+<text x="400" y="307" font-size="14" fill="#475569">Matching colors track each original row.</text>
+</g></svg>
