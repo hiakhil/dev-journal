@@ -10,8 +10,8 @@ Each topic index lists LeetCode and GeeksforGeeks questions under **Easy**, **Me
 
 | # | Topic | Questions |
 | --- | --- | --- |
-| 1 | [Arrays](%5B1%5D%20Arrays/README.md) | 6 |
-| 2 | [Strings](%5B2%5D%20Strings/README.md) | 1 |
+| 1 | [Arrays](%5B1%5D%20Arrays/README.md) | 8 |
+| 2 | [Strings](%5B2%5D%20Strings/README.md) | 2 |
 | 3 | [Linked List](%5B3%5D%20Linked%20List/README.md) | 0 |
 | 4 | [Mathematical Problems](%5B4%5D%20Mathematical%20Problems/README.md) | 0 |
 | 5 | [Greedy Algorithm](%5B5%5D%20Greedy%20Algorithm/README.md) | 0 |
